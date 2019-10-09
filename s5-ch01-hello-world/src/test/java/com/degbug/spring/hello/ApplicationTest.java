@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 /**
  * @author jianhua.lei
  */
-public class ApplicationTests {
+public class ApplicationTest {
 
     @Test
     public void main(){

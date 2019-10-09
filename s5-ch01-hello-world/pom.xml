@@ -2,10 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring5_dev</artifactId>
+        <groupId>com.degbug</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.degbug</groupId>
-    <artifactId>spring5_dev</artifactId>
+    <artifactId>s5-ch01-hello-world</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -14,11 +19,6 @@
             <artifactId>spring-context</artifactId>
             <version>5.0.8.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
+
 </project>
